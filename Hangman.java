@@ -18,20 +18,7 @@ public class Hangman {
 
     public static void main (String[] args) {
 
-	int chances = 0;
-	HashSet<Character> guessedLetters = new HashSet<>();
-
-	char[] lines = new char[WORD.length()];
-
-	for (int i = 0; i < lines.length; i++) {
-	    lines[i] = '_';
-	}
-
-	System.out.println(welcomeMessage);
-
-	printHangman(chances);
-
-	System.out.println(String.valueOf(lines));
+	
 
     }
 
